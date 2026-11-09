@@ -1,0 +1,25 @@
+{
+  "name": "expo-router-strictmode-repro",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "web": "expo start --web",
+    "check": "node check.mjs",
+    "repro": "./run-both.sh"
+  },
+  "dependencies": {
+    "expo": "~57.0.32",
+    "expo-router": "57.0.30",
+    "expo-linking": "57.0.13",
+    "expo-constants": "~57.0.23",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-web": "0.21.4",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0"
+  },
+  "devDependencies": {
+    "playwright": "1.65.0"
+  }
+}
